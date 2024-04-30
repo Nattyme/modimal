@@ -1,0 +1,22 @@
+.button, a.button {
+    padding: 8px;
+
+    min-width: 185px;
+    height: 40px;
+
+    background-color: var(--white);
+
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--black);
+
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        color: #fff;
+        background-color: var(--primary-primary-600);
+    }
+}
