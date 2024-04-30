@@ -1,11 +1,21 @@
-.header__nav {
-}
 .nav {
-	font-size: 18px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 1.8;
+
+    text-transform: capitalize;
 }
 .nav__list {
 	display: flex;
 	column-gap: 30px;
+
+    a {
+        color: var(--neutral-gray404040);
+    }
+
+    a.active {
+        color: #000;
+    }
 }
-.active {
-}
+
+
