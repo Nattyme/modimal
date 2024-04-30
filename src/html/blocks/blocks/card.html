@@ -8,20 +8,20 @@
     </div>
 
     <div class="card__picture">
-        <img src="./../../../img/best/best-01.jpg" alt="Изображение товара" class="card__img">
+        <img src="./../../../img/best/best-@@img.jpg" alt="Изображение товара" class="card__img">
     </div>
 
     <div class="card__body">
-        <h3 class="card__title"><a href="#!">tailored stretch</a></h3>
+        <h3 class="card__title"><a href="#!">@@title</a></h3>
         <div class="card__cols">
-            <div class="card__desc">turn it up pants</div>
-            <div class="card__price">$180</div>
+            <div class="card__desc">@@desc</div>
+            <div class="card__price">$@@price</div>
         </div>
 
         <div class="card__colors">
-            <div class="color color--black"></div>
-            <div class="color color--blue"></div>
-            <div class="color color--green"></div>
+            @@for(var i=0; i < context.colors.length; i++) {
+                <div class="color color--`+context.colors[i]+`"></div>
+            }
         </div>
     </div>
 

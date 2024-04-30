@@ -10,9 +10,10 @@
         </div>
 
         <div class="best__cards">
-            @@include('blocks/card.html')
-            <article>02</article>
-            <article>03</article>
+            <!-- @@include('blocks/card.html') -->
+
+            @@loop('blocks/card.html', './data/products.json')
+          
         </div>
     </div>
 </section>
