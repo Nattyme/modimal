@@ -1,6 +1,6 @@
 .header {
-	background-color: #c0e4f4;
-	padding: 50px 0;
+    padding-top: 16px;
+    padding-bottom: 18px;
 
 	&__row {
 		display: flex;
@@ -10,27 +10,12 @@
 }
 
 .header__logo {
+    flex-shrink: 0;
 }
 
-.logo {
-}
-.header__nav {
-}
-.nav {
-}
-.nav__list {
-}
-.active {
-}
 .header__account {
-}
-.account {
 }
 
 .header__nav-btn {
     display: none;
-}
-.mobile-nav-btn {
-}
-.nav-icon {
 }
