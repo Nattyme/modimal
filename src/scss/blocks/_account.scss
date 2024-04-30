@@ -1,0 +1,17 @@
+.account {
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+
+    a {
+        display: inline-block;
+        height: 24px;
+        transition: all 0.2s ease-in;
+    }
+    
+    a:hover {
+        background-color: var(--neutral-grayededed);
+    }
+}
