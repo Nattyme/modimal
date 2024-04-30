@@ -1,6 +1,7 @@
 .button, a.button {
     padding: 8px;
 
+    display: inline-block;
     min-width: 185px;
     height: 40px;
 
@@ -18,5 +19,11 @@
     &:hover {
         color: #fff;
         background-color: var(--primary-primary-600);
+    }
+
+    &--small {
+        min-width: unset;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
