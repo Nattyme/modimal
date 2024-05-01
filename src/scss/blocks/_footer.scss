@@ -9,6 +9,13 @@
     line-height: 1.8;
     text-transform: capitalize;
     color: var(--neutral-graycbcbcb);
+
+    @include mobile {
+         margin-top: 24px;
+
+         padding-top: 8px;
+         padding-bottom: 8px;
+    }
 }
 
 .footer__copyright {

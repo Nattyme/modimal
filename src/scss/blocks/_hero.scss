@@ -5,7 +5,7 @@
 
     background-color: #999;
     background-image: url('./../../img/hero/hero.jpg');
-    background-position: left center; // x y
+    background-position: 30% center; // x y
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -32,9 +32,13 @@
     align-items: flex-start;
     row-gap: 27px;
 
+     @include tablet {
+         max-width: 250px; 
+    }
+
     @include mobile {
             row-gap: 32px;
-        }
+    }
 }
 
 .hero__title {
@@ -51,5 +55,6 @@
 
     @include mobile {
             max-width: 168px;
+            font-size: 20px;
         }
 }
