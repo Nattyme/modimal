@@ -1,6 +1,4 @@
 .account {
-    padding-left: 8px;
-    padding-right: 8px;
     display: flex;
     align-items: center;
     column-gap: 24px;
@@ -19,3 +17,19 @@
         background-color: var(--neutral-grayededed);
     }
 }
+
+.account__item--search {
+    @include mobile {   
+        display: none;
+    }
+}
+
+.account__item--menu {
+    display: none;
+
+    @include mobile {
+            display: block;
+        }
+}
+
+
