@@ -1,12 +1,20 @@
 
 .collection__title {
     margin-bottom: 24px;
+
+    @include mobile {
+         margin-bottom: 8px;
+    }
 }
 
 .collection__cols {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 24px;
+
+    @include mobile {
+         column-gap: 16px;
+    }
 }
 
 .collection__col {
@@ -14,4 +22,8 @@
     justify-content: space-between;
     flex-direction: column;
     row-gap: 64px;
+
+    @include mobile {
+         row-gap: 24px;
+    }
 }
