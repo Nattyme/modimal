@@ -1,28 +1,16 @@
 .footer {
-    margin-top: 88px;
-    
-	background-color: rgb(39, 39, 39);
-	padding: 50px 0;
-	font-size: 32px;
-    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
-	h1 {
-		font-size: 32px;
-	}
+    background-color: #000;
 
-	a {
-		// color: var(--link-color);
-		color: #fff;
-		text-decoration: underline;
-	}
-
-	@media (max-width: 1200px) {
-		font-size: 26px;
-	}
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 1.8;
+    text-transform: capitalize;
+    color: var(--neutral-graycbcbcb);
 }
 
 .footer__copyright {
-	padding: 10px 0;
-	font-size: 16px;
 
 }
