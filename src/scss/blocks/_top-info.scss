@@ -2,6 +2,9 @@
     padding-top: 8px;
     padding-bottom: 7px;
 
+    position: relative;
+    z-index: 199;
+
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 12px;

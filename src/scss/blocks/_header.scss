@@ -1,6 +1,11 @@
 .header {
     padding-top: 16px;
     padding-bottom: 18px;
+    
+    position: relative;
+    z-index: 199;
+
+    background-color: #fff;
 
 	&__row {
 		display: flex;
