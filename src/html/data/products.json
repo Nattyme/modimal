@@ -36,7 +36,7 @@
         "title": "Cool Blause",
         "desc": "Anywhere Dress",
         "price": "210",
-        "colors": ["blue", "white", "green"]
+        "colors": [ "white", "green"]
     },
 
     {
