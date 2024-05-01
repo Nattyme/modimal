@@ -17,8 +17,14 @@
     transition: all 0.2s ease-in;
 
     &:hover {
-        color: #fff;
-        background-color: var(--primary-primary-600);
+        background-color: var(--neutral-grayededed);
+    }
+
+    @include mobile {
+        padding-left: 9px;
+        padding-right: 9px;
+        
+        min-width: unset;
     }
 
     &--small {

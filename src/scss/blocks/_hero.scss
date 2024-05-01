@@ -5,13 +5,18 @@
 
     background-color: #999;
     background-image: url('./../../img/hero/hero.jpg');
-    background-position: center center; // x y
+    background-position: left center; // x y
     background-size: cover;
     background-repeat: no-repeat;
     
     @include mediaBg() {
         background-image: url('./../img/hero/hero@2x.jpg');
     }
+
+    @include mobile {
+            padding-bottom: 16px;
+            height: 551px;
+        }
 
     .container {
         height: 100%;
@@ -26,6 +31,10 @@
     justify-content: flex-end;
     align-items: flex-start;
     row-gap: 27px;
+
+    @include mobile {
+            row-gap: 32px;
+        }
 }
 
 .hero__title {
@@ -39,4 +48,8 @@
     text-transform: capitalize;
 
     color: var(--black);
+
+    @include mobile {
+            max-width: 168px;
+        }
 }
