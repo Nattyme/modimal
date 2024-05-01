@@ -22,6 +22,18 @@
     transition: all 0.2s ease-in;
 }
 
+.card__fav-btn {
+    z-index: 9;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+
+    @include mobile {
+         top: 8px;
+         right: 8px;
+    }
+}
+
 .card__btn-fav {
     svg {
         transition: all 0.2s ease-in;
@@ -41,18 +53,15 @@
     }
 }
 
-.card__fav-btn {
-    z-index: 9;
-    position: absolute;
-    top: 24px;
-    right: 24px;
-}
-
 .card__body {
     padding: 5.5px 8px;
 
     display: grid;
     row-gap: 8px;
+
+    @include mobile {
+         padding: 0;
+    }
 }
 
 .card__title {
@@ -64,6 +73,11 @@
     line-height: 1.4;
     text-transform: capitalize;
     color: var(--black);
+
+    @include mobile {
+        font-weight: 600;
+        font-size: 14px;
+    }
 
     a {
         display: block;
@@ -81,6 +95,10 @@
     display: grid;
     grid-template-columns: 1fr auto;
     column-gap: 12px;
+
+    @include mobile {
+         flex-wrap: wrap;
+    }
 }
 
 .card__desc {
@@ -89,6 +107,11 @@
     line-height: 1.8;
     text-transform: capitalize;
     color: var(--black);
+
+    @include mobile {
+        font-size: 14px;
+        line-height: 1.4;
+    }
 }
 
 .card__price {
@@ -101,6 +124,12 @@
     text-transform: capitalize;
 
     color: var(--black);
+
+    @include mobile {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.4;
+    }
 }
 
 .card__colors {
