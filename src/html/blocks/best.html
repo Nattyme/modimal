@@ -11,8 +11,16 @@
 
         <div class="best__cards">
             <!-- @@include('blocks/card.html') -->
+            <!-- Slider main container -->
+            <div class="swiper">
+                
+                <div class="swiper-wrapper">
+                    @@loop('blocks/card.html', './data/products.json')
+                </div>
+               
+                <div class="swiper-pagination"></div>
 
-            @@loop('blocks/card.html', './data/products.json')
+            </div>
           
         </div>
     </div>
