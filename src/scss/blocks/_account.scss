@@ -5,6 +5,10 @@
     align-items: center;
     column-gap: 24px;
 
+    @include tablet {
+        column-gap: 12px;
+    }
+
     a {
         display: inline-block;
         height: 24px;
