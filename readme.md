@@ -1,25 +1,9 @@
-# Gulp сборка для верстки сайтов от [ВебКадеми](https://webcademy.ru)
+# Layout of main page for Modimal shop using Gulp assembling 
 
+Technology:
 - HTML,
 - SCSS,
 - Gulp,
 - JS
 
-Документация и примеры использования внутри.
-
-Установить зависимости:
-```
-npm i
-```
-
-Зпустить в режиме разработки:
-```
-gulp
-```
-
-Собрать версию для публикации:
-```
-gulp docs
-```
-
-[Смотреть демо](https://user.github.io/repo/)
+[Watch demo] (https://nattyme.github.io/modimal/)
