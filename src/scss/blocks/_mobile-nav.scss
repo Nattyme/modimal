@@ -24,11 +24,9 @@
 	color: #000;
 }
 
-
-.mobile-nav__link {
-}
-
 .mobile-links {
+    margin-bottom: 84px;
+
     display: grid;
     row-gap: 32px;
 }
@@ -58,9 +56,6 @@
 
 .active .mobile-links__parent-btn__icon {
     transform: rotate(-180deg);
-}
-
-.mobile-nav__btns {
 }
 
 .mobile-sub {
@@ -95,4 +90,15 @@
     &:hover {
         color: #000;
     }
+}
+
+.mobile-nav__btns {
+    margin-top: auto;
+
+    padding-top: 14px;
+    border-top: 1px solid var(--neutral-graycbcbcb);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
 }
