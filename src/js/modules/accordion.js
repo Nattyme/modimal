@@ -5,10 +5,11 @@ function accordion () {
         btn.addEventListener('click', function(){
             const content = btn.nextElementSibling;
             // content.style.maxHeight = '200px';
-            const isOpen = content.classList.toggle('mobile-sub--open');
+            const isOpen = btn.classList.toggle('active');
 
             if(isOpen) {
                 content.style.maxHeight = content.scrollHeight + 'px';
+
             } else {
                 content.style.maxHeight = '0px';
             }

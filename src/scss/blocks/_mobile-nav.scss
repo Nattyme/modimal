@@ -52,6 +52,14 @@
     color: var(--black);
 }
 
+.mobile-links__parent-btn__icon {
+    transition: all 0.2s ease-in;
+}
+
+.active .mobile-links__parent-btn__icon {
+    transform: rotate(-180deg);
+}
+
 .mobile-nav__btns {
 }
 
