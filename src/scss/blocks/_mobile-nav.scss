@@ -27,6 +27,7 @@
 
 .mobile-nav__link {
 }
+
 .mobile-links {
     display: grid;
     row-gap: 32px;
@@ -54,10 +55,15 @@
 .mobile-nav__btns {
 }
 
+.mobile-sub {
+    max-height: 0px;
+    overflow: hidden;
+
+    transition: all 0.2s ease-in;
+}
+
 .mobile-sub-list {
-    padding-top: 24px;
-    padding-bottom: 16px;
-    padding-left: 35px;
+    padding: 24px 0 16px 33px;
 
     display: grid;
     row-gap: 16px;
