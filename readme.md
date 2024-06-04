@@ -6,7 +6,7 @@ Technology:
 - Gulp,
 - JS
 
-[Watch demo] (https://nattyme.github.io/modimal/)
+[Watch demo](https://nattyme.github.io/modimal/)
 
 <hr>
 
